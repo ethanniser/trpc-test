@@ -1,0 +1,16 @@
+{
+  "name": "trpc-test",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@trpc/client": "^11.0.0-rc.354",
+    "@trpc/server": "^11.0.0-rc.354",
+    "zod": "^3.23.4"
+  }
+}
